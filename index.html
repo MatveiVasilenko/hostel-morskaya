@@ -385,33 +385,12 @@
     <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
 	
-    <!-- lightgallery plugins -->
-    <script src="js/lg-thumbnail.min.js"></script>
-    <script src="js/lg-fullscreen.min.js"></script>
-	
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/plugins/TextPlugin.min.js"></script>
 
 	<script>
-		 $(document).scroll(function() {
-
-	    	var begin = $('#ender').offset().top;
-	    	// var medium = $('#menus').offset().top;
-	    	var end = $('#beginner').offset().top;
-	        var menu = $(".design-nav");
-
-
-	        var top = $(this).scrollTop();
-	            if ( top >= 1 ) {
-		            menu.addClass('design-top');
-		            console.log(end);
-		        } 
-	            else if (top < end) {
-	             	menu.removeClass('design-top');
-	            }
-	            
-	        });
+		 
 	
 
 	</script>	
